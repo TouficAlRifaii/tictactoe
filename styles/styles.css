@@ -1,6 +1,6 @@
 .game {
   background-image: url("/assignment_3/assests/board.png");
-  width: 507px;
+  width: 515px;
   height: 524px; /*the height and the weight are the same as the img dimensions */
   background-size: 100%;
   margin-left: 35%;
@@ -8,15 +8,25 @@
 }
 .location {
   display: inline-block;
-  width: 166px;
-  height: 170px;
+  width: 168px;
+  height: 171px;
   background-color: blue;
+  position: relative;
+  left: 3px;
+  top: 3px;
+  margin-bottom: 3px;
 }
 
 .game div.location + div.location{
+  left: 5px;
+}
+
+.row2{
+
+  height: 183px;
   
 }
 
-.game div.location + div.location + div.location{
-  background-color: blue;
+.row3{
+  height: 153px;
 }
