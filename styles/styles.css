@@ -1,8 +1,9 @@
-/* img{
+img{
 
-  width: 50%;
+  height: 170;
+  width: 170;
 
-} */
+}
 
 .game {
   background-image: url("/assignment_3/assests/board.png");
@@ -16,13 +17,23 @@
   display: inline-block;
   width: 168px;
   height: 171px;
-  background-color: blue;
+  /* background-color: blue; */
   position: relative;
   left: 3px;
   top: 3px;
   margin-bottom: 3px;
 }
+.afterImg{
 
+  bottom: 5px;
+  
+}
+.afterImgrow2{
+  top: 8px;
+}
+.afterImgrow3{
+  top: 13px;
+}
 .game div.location + div.location{
   left: 5px;
 }
