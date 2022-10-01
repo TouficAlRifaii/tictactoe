@@ -1,6 +1,5 @@
 window.onload= () => {
     const locations = document.querySelectorAll(".location")
-    // console.log(locations.length)
+    locations[0].innerHTML= "<img src='assests/yellow.png' />"
     
-
 };
