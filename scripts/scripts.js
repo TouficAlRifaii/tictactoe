@@ -63,7 +63,7 @@ window.onload = () => {
             event.classList.add("afterImgrow3");
           }
           isPlayer = 0;
-          console.log(gameBoard.toString());
+          
         } else {
           event.innerHTML = "<img src='assests/yellow.png'>";
           event.classList.add("afterimg");
@@ -75,7 +75,7 @@ window.onload = () => {
             event.classList.add("afterImgrow3");
           }
           isPlayer = 1;
-          console.log(gameBoard.toString());
+          
         }
       }
     }
