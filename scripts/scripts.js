@@ -46,7 +46,7 @@ function compare(winningArray, gameArray) {
   }
 }
 window.onload = () => {
-  const locations = document.getElementsByClassName("location");
+  const locations = document.querySelectorAll(".location");
   const resultH3 = document.getElementById("result");
   let isPlayer = 1; // This variable will determine if it is the player turn (1 == player)
   function turn(event, index) {
@@ -78,7 +78,8 @@ window.onload = () => {
           console.log(gameBoard.toString());
         }
       }
-    } if(comparisonResult != undefined) {
+    }
+    if (comparisonResult != undefined) {
       resultH3.innerText = comparisonResult;
     }
   }
