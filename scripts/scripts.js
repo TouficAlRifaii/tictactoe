@@ -48,6 +48,7 @@ function compare(winningArray, gameArray) {
 window.onload = () => {
   const locations = document.querySelectorAll(".location");
   const resultH3 = document.getElementById("result");
+  const restart = document.getElementById("restart");
   let isPlayer = 1; // This variable will determine if it is the player turn (1 == player)
   function turn(event, index) {
     if (gameState == 1) {
@@ -86,4 +87,5 @@ window.onload = () => {
   for (let i = 0; i < locations.length; i++) {
     locations[i].addEventListener("click", () => turn(locations[i], i));
   }
+  restart.addEventListener("click" , () => location.reload());
 };
