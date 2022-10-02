@@ -6,7 +6,11 @@ img{
 }
 button{
 
-  margin-left: 62%;
+  margin-left: 60%;
+  margin-top: 10%;
+  width: 120px;
+  height: 70px;
+  font-size: large;
 }
 
 .game {
