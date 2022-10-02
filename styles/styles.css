@@ -1,3 +1,6 @@
+h1{
+  text-align: center;
+}
 img{
 
   height: 170;
@@ -6,11 +9,16 @@ img{
 }
 button{
 
-  margin-left: 60%;
-  margin-top: 10%;
+  margin-left: 46%;
+  margin-top: 7%;
   width: 120px;
   height: 70px;
   font-size: large;
+}
+h3{
+
+  font-size: 30px;
+
 }
 
 .game {
@@ -18,7 +26,7 @@ button{
   width: 515px;
   height: 524px; /*the height and the weight are the same as the img dimensions */
   background-size: 100%;
-  margin-left: 35%;
+  margin-left: 33%;
   margin-top: 10%;
 }
 .location {
