@@ -4,6 +4,10 @@ img{
   width: 170;
 
 }
+button{
+
+  margin-left: 25%;
+}
 
 .game {
   background-image: url("/assignment_3/assests/board.png");
