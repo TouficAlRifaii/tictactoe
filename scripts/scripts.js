@@ -30,11 +30,11 @@ function compare(winningArray, gameArray) {
       gameArray[winningArray[i][0]] == gameArray[winningArray[i][2]]
     ) {
       if (gameArray[winningArray[i][0]] == "x") {
-        comparisonResult = "Victory";
+        comparisonResult = "Player 1 Won";
         flag = true;
         gameState = 0;
       } else {
-        comparisonResult = "Defeat";
+        comparisonResult = "Player 2 Won";
         flag = true;
         gameState = 0;
       }
